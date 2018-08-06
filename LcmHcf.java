@@ -25,7 +25,7 @@ public class LcmHcf {
 		return reply;
 	}
 
-	static int reply;
+	static int reply = 1;
 	/**
 	 * Find LCM 
 	 * 
