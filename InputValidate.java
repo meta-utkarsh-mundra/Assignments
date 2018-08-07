@@ -1,4 +1,4 @@
-package Assignment6.input;
+package Assignment5.input;
 import java.util.Scanner;
 
 public class InputValidate{
