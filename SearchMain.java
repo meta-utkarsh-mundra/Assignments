@@ -1,4 +1,4 @@
-package Assignment6.LinearBinary;
+package Assignment5.LinearBinary;
 
 import java.util.Scanner;
 
