@@ -16,20 +16,20 @@ public class Circle implements Shape {
 	 * @param y, its the y coordinate of the origin of the circle
 	 */
 	public Circle(double radius, double x , double y) {
-		this.radius = radius;
+	    this.radius = radius;
 	    obj = new Point(x, y);
 	    c1 = (double) ((double) (((Math.sqrt(obj.getX()*obj.getX() + obj.getY()*obj.getY())) + radius)*obj.getX())
 				   /(Math.sqrt(obj.getX()*obj.getX() + obj.getY()*obj.getY())));
-		c2 = (double) ((double) (((Math.sqrt(obj.getX()*obj.getX() + obj.getY()*obj.getY())) + radius)*obj.getY())
+	    c2 = (double) ((double) (((Math.sqrt(obj.getX()*obj.getX() + obj.getY()*obj.getY())) + radius)*obj.getY())
 				   /(Math.sqrt(obj.getX()*obj.getX() + obj.getY()*obj.getY())));
-		C = new Point(c1, c2);
+	    C = new Point(c1, c2);
 	}
 	
 	/**
 	 * @return center of the circle
 	 */
 	private Point getCenter() {
-		return C;
+	    return C;
 	}
 	
 	/* 
@@ -37,14 +37,14 @@ public class Circle implements Shape {
 	 */
 	@Override
 	public double getArea() {
-		return Math.PI*(radius*radius);
+            return Math.PI*(radius*radius);
 	}
 
 	/* returns the perimeter of the circle
 	 */
 	@Override
 	public double getPerimeter() {
-		return 2*Math.PI*(radius);
+	     return 2*Math.PI*(radius);
 	}
 
 	/* @param Point p is an arbitrary podouble.
@@ -54,8 +54,8 @@ public class Circle implements Shape {
 	 */
 	@Override
 	public boolean isPointEnclosed(Point p) {
-		if((double) Math.sqrt((p.getX()-c1)*(p.getX()-c1) + (p.getY()-c2)*(p.getY()-c2)) > radius) {
-			return false;
+	    if((double) Math.sqrt((p.getX()-c1)*(p.getX()-c1) + (p.getY()-c2)*(p.getY()-c2)) > radius) {
+	       	return false;
 		}
 		return true;
 	}
