@@ -1,4 +1,4 @@
-package Assignment6.LCMHCF;
+package Assignment5.LCMHCF;
 
 import java.util.Scanner;
 
