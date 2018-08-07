@@ -1,4 +1,4 @@
-package Assignment6.QUEEN;
+package Assignment5.QUEEN;
 
 import java.util.Scanner;
 
