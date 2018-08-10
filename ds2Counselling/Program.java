@@ -1,8 +1,7 @@
 package ds2Counselling;
 
 /**
- * This class consists information about a program like program name, capacity and number of students allocated to it
- * @author Aakanksha
+ * This class consists information about a program like program name, capacity and number of students allocated to i
  *
  */
 public class Program {
