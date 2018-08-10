@@ -2,7 +2,6 @@ package ds2Counselling;
 
 /**
  * This class holds the information of student like id, name, preferences and programs allocated
- * @author Aakanksha
  *
  */
 public class Student {
