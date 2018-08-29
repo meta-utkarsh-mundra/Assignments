@@ -1,0 +1,50 @@
+html {
+	height=100%;
+}
+body {
+	height=100%;
+	margin: 0;
+	font-family: Arial;
+	background-color: rgb(255,255,255);
+	}
+
+.topnav {
+	position : fixed;
+	width: 100%;
+	background-color: rgb(0,0,255);
+	}
+
+.topnav a {
+	align: right;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 17px;
+	} 
+.topnav a:hover {
+	background-color: rgb(221, 221, 221);
+	color: black;
+	}
+
+.topnav a.active {
+	background-color: rgb(221, 221, 221);
+	color: black;
+	}
+	
+img {
+	border : 1px solid rgb(0,0,0);
+	border-radius : 4px;
+	padding : 5px;
+	}
+	
+input {
+	border : 1px solid rgb(0,0,0);
+	border-radius : 4px;
+	padding : 5px;	
+}
+
+.button1:hover {
+	background-color: rgb(255, 97, 100);
+	color: blue;
+}
