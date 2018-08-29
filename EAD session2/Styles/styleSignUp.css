@@ -1,0 +1,39 @@
+body {
+	margin:0;
+}
+			
+#errorFirstName{
+	display : none;
+	font-size : 15px;
+	color : red ;
+}
+		
+#errorLastName {
+	display : none;
+	font-size : 15px;
+	color : red ;
+}
+		
+#errorEmail {
+	display : none;
+	font-size : 15px;
+	color : red ;
+}
+		
+#errorPassword {
+	display : none;
+	font-size : 15px;
+	color : red ;
+}
+				 
+#errorConfirmPassword{
+	display : none;
+	font-size : 15px;
+	color : red ;
+}
+		
+#errorMobileNumber {
+	display : none;
+	font-size : 15px;
+	color : red ;
+}

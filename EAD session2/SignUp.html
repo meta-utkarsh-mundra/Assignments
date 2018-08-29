@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<script src="Javascripts/ValidationScript.js"></script>
+		<link rel="stylesheet" href="Styles/styles.css">
+		<link rel="stylesheet" href="Styles/styleSignUp.css">
+	</head>
+
+	<body>
+		<div class="topnav">
+			<table width="80%" align="center">
+				<tr>
+				<td><img src="Image/html5logo.png" height="50px" alt="HTML5"></td>
+				<td>
+					<a href="Home.html">Home</a>
+					<a href="Home.html">About</a>
+					<a href="Home.html">Product</a>
+					<a href="Home.html">Gallery</a>
+					<a href="Contact.html">Contact</a>
+				</td>
+				<td align="right">
+					<a class="active" href="SignUp.html">SignUp</a>
+					<a href="SignIn.html">SignIn</a>
+				</td>
+				</tr>
+			</table>
+		</div>
+		<hr/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<h1 align="center"> Sign Up </h1>
+		<form id="SignUpForm" action="SignIn.html" method="post">
+			<table align="center">
+				<tr>
+					<td align="left">
+						First Name
+					</td>
+					<td>
+						<input type="text" id="firstName" placeholder="Enter first name" onblur="validateFirstName()">
+						<span id = "errorFirstName">Name can only contain alphabets.</span>
+						
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						Last Name
+					</td>
+					<td>
+						<input type="text" id="lastName" placeholder="Enter last name" onblur="validateLastName()">
+						<span id = "errorLastName">Name can only contain alphabets.</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						Email
+					</td>
+					<td>
+						<input type="email" id="email" placeholder="Enter your email-id" onblur="validateEmail()">
+						<span id = "errorEmail">Email is invalid.</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						Password
+					</td>
+					<td>
+						<input type="password" id="Password" placeholder="Enter your password" onblur="validatePassword()">
+						<span id = "errorPassword">Password should contain at least one UpperCase,Lowercase,Numeric value and Special Character.</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						Confirm Password
+					</td>
+					<td>
+						<input type="password" id = "confirmPassword" placeholder = "Enter password again" onblur="validateConfirmPassword()">
+						<span id = "errorConfirmPassword">Password doesn't match.</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						Contact Number
+					</td>
+					<td>
+						<input type="number" id = "contactNumber" placeholder = "Enter contact number" onblur="validateContactNumber()">
+						<span id = "errorMobileNumber">Invalid Mobile Number.</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						Company/Institution
+					</td>
+					<td>
+						<select id="company">
+							<option value="null" disabled selected>Select your option</option>
+							<option value="Metacube">Metacube</option>
+							<option value="Accenture">Accenture</option>
+							<option value="Google">Google</option>
+							<option value="Pratham">Pratham</option>
+							<option value="IBM">IBM</option>
+						</select>
+					</td>
+				</tr>
+				<tr align="right">
+					<div>
+						<td>
+							<br/>
+							<button type="button" class="submission" form="SignUpForm" onclick="validateSignUp()" value="Submit"> Sign Up </button>
+						</td>
+					</div>
+				</tr>
+			</table>
+		</form>
+		<footer >
+			<p align="center">&copy;Copyright 2018-2019 | All Rights Reserved | Metacube Training</p>
+		</footer>
+	</body>
+</html>
