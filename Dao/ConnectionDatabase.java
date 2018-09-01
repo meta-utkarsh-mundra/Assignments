@@ -3,12 +3,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * This class is used for Connecting Database
- * 
- * @author Mohit Sharma
- *
- */
 public class ConnectionDatabase {
 	public static Connection getConnection() throws SQLException,
 			ClassNotFoundException {
