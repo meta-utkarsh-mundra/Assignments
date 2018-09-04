@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+                  "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+ <bean id = "text_editor2" class = "com.metacube.training2.TextEditor2">
+ 	<property name="sc">
+ 	<list>
+ 		<ref bean = "sc1"/>
+ 		<ref bean = "sc2"/>
+ 		<ref bean = "sc3"/>
+ 	</list>
+    </property>
+ </bean>                 
+<bean id = "sc1" class = "com.metacube.training2.SpellChecker2">
+	<property name = "a" value = "AR Rahman"/>
+	<property name = "b" value = "Shankar Mahadevan"/>
+</bean>
+<bean id = "sc2" class = "com.metacube.training2.SpellChecker2">
+	<property name = "a" value = "Amitabh Bachhan"/>
+	<property name = "b" value = "Rajesh Khanna"/>
+</bean>
+<bean id = "sc3" class = "com.metacube.training2.SpellChecker2">
+	<property name = "a" value = "Arijit Singh"/>
+	<property name = "b" value = "Atif Aslam"/>
+</bean>
+
+</beans>
