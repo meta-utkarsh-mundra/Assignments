@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+<title>Edit project Details</title>
+
+</head>
+<body>
+<h1>Password Reset Page</h1>
+	<div>
+		<form th:object="${confirmPassword}" th:action="@{./reset}" method="post">
+			<input type="hidden"  th:field="*{empCode}" />
+			<br>
+			 <input type="hidden" th:field="*{tokenId}" /> 
+			<label>new Password:</label> 
+			<input type="password"  th:field="*{newPassword}" /> 
+				<br>
+			<label>confirm Password:</label> 
+			<input type="password"  th:field="*{confirmPassword}" /> 
+			<br>
+			<button type="submit" class="btn btn-primary">Save</button>
+
+		</form>
+	</div>
+</body>
+</html>
