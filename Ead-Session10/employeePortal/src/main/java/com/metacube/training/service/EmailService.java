@@ -20,7 +20,7 @@ public class EmailService {
 		SimpleMailMessage mail = new SimpleMailMessage();
 		
 		mail.setTo(user.getEmailAddress());
-		mail.setFrom("aakankshametacube@gmail.com");
+		mail.setFrom("arpitmundraalive@gmail.com");
 		mail.setSubject("FORGET PASSWORD");
 		String message = "Hello " + user.getFirstName()+" " + user.getLastname() +"\n" + "please click below link to reset your password:\n\n" + user.getAppUrl();
 		mail.setText(message);
