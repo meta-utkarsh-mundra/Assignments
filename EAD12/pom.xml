@@ -100,7 +100,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<version>5.2.9.Final</version><!-- kajal 4.2.5.Final https://search.maven.org/search?q=g:org.hibernate%20AND%20a:hibernate-*%20AND%20v:5.2.9.Final -->
+			<version>5.2.9.Final</version>
 		</dependency>
 
 
