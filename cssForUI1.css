@@ -1,0 +1,470 @@
+.body {
+	height: 100%;
+	font-size: 20px;
+	background-image: url("images/bodybg.png");	
+}
+
+.div_flex {
+	display: flex;
+	justify-content: space-around;
+	/*border: 1px solid black;*/
+}
+
+.button1 {
+	padding: 8px;
+	text-decoration: none;
+	border: none;
+	color: rgb(224,224,224);
+	margin: 10px;
+	font: bold;
+	font-size: 18px;
+	display: inline-flex;
+}
+
+.button2 {
+	text-decoration: none;
+	border: none;
+	color: white;
+	margin: 10px;
+	font: bold;
+	font-size: 15px;
+}
+
+#topLogo {
+	position: absolute;
+	left: 13%;
+	top: 2%;
+	padding: 2%;
+	display: inline-flex;
+}
+
+#toDoFloat {
+	display: inline-flex;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-flex;
+}
+
+i {
+	padding: 10px;
+	color: white;
+}
+
+#socialIcons {
+	display: inline-flex;
+	position: absolute;
+	left: 80%;
+}
+
+.buttons {
+	position: absolute;
+	left: 35%;
+	top: 2%;
+	text-align: center;
+	display: inline-flex;
+	/*justify-content: center;*/
+}
+
+.bgImage {
+	width: 100%;
+}
+
+.phone1 {
+    width: 95%;
+
+}
+
+/*.first {
+	height: 799px;
+}*/
+
+#header {
+	height: 20%;
+	width: 100%;
+	display: inline-flex;
+	width: 100%; 
+	/*background-image: url("images//homebg.png");*/
+}
+
+/*#toDoFloat {
+	box-flex: 2;
+}*/
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts//fontawesome-webfont.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(fonts//FontAwesome.otf);
+}
+
+#text1 {
+	width: 35%;
+	position: absolute;
+	left: 14%;
+	top: 25%;
+	color: white;
+	font: bold;
+	font-style: mySecondFont;
+	font-size: 30px;
+}
+
+#midButtons {
+	margin-top: 20px;
+	position: absolute;
+	left:14%;
+	top: 52%;
+	border-radius: 2px;
+	padding: 3px;
+}
+
+#download2 {
+	font-size: 13px;
+	font-style: myFirstFont;
+	border-radius: 4px;
+	padding: 3px;
+	background-color: tomato;
+	width: 100px;
+	height: 40px;
+}
+
+#features2 {
+	font-size: 13px;
+	font-style: myFirstFont;
+	border-radius: 4px;
+	padding: 3px;
+	background-color: #3469CB;
+	width: 100px;
+	height: 40px;
+}
+
+#phone1 {
+	position: absolute;
+	left: 50%;
+	top: 23%;
+}
+
+.centerAlign {
+	text-align: center;
+}
+
+#perfect {
+	margin-top: 50px;
+	padding: 18px;
+}
+
+.headings {
+	font-size: 40px;
+	color: #618AFD;
+	font-style: myFirstFont;
+}
+
+.paras {
+	font-size: 20px;
+	color: rgb(160,160,160);
+	font-style: myFirstFont;
+	align-content: center;
+}
+
+.test1 {
+
+	text-align: center;
+	width: 100%;
+	align-content: center;
+}
+#col1 {
+	position: relative;
+	display: inline-flex;
+	left: 10%;
+}
+
+#col2 {
+	position: relative;
+	display: inline-flex;
+	left: 20%
+}
+
+#col3 {
+	position: relative;
+	display: inline-flex;
+	left: 30%;
+}
+
+/*#img1 {
+	position: relative;
+	display: inline-flex;
+	width: 100%;
+	height: 100%;
+}
+
+#img2 {
+	position: relative;
+	display: inline-flex;
+	width: 100%;
+	height: 100%;
+}
+
+#img3 {
+	
+}
+*/
+.cols {
+	display: inline-flex;
+	width: 20%;
+}
+
+.innerCols1 {
+	display: inline-block;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	/*width: 100%;*/
+	height: 50%;
+	margin: 10px;
+	/*padding: 30px;*/
+}
+
+/*.innercols2 {
+	display: inline-flex;
+}*/
+
+#col {
+	display: flex;
+	position: relative;
+	padding: 20px;
+	margin: 20px;
+	align-content: center;
+}
+
+#ss {
+	margin-bottom: 4%;
+	margin-top: 4%;
+	padding: 1%;
+}
+
+.clouds {
+	
+	align-content: center;
+}
+
+#cloud1 {
+	margin-bottom: 10%;
+}
+
+
+/*Screenshot styling*/
+/*.mobile_pic {
+	width: 40%;
+	text-align: center;
+	position: relative;
+}
+
+.screenshot_part {
+	width: 40%;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.screenshot_part div, .screenshot_part div h2, .screenshot_part div p{
+	padding-bottom: 20px;
+}
+
+
+.rotate {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	color: #DCDCDC;
+	transform: rotate(90deg);
+	top: 0px;
+	left: 210px;
+	font-size: 190px;
+	margin-top: 180px;
+	margin-left: -140px;
+}
+
+#rainy_rotate {
+	margin-left: -80px;
+}
+
+.degree, .weather {
+	border-radius: 100%;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF;
+	position: absolute;
+	margin-left: 60px;
+}
+
+.degree {
+	top: 350px;
+	left: -20px;
+	background-color: #6A9FFB;
+
+}
+
+.weather {
+
+	/*top: 200px;*/
+	/*left: 270px;*/
+	/*left: 
+	background-color: #FCED6E;
+}
+
+.circles {
+	display: flex;
+	flex-direction: row;
+	max-width: 30px;
+	height: 30px;
+	border-color: #DCDCDC;
+	border-style: dashed;
+	color: #DCDCDC;
+	position: absolute;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding-left: 20px;
+	border-radius: 100%;
+	z-index: 1;
+	padding-top: 25px;
+	padding-right: 20px;
+}
+
+#degree_circle {
+	left: 955px;
+	z-index: -1;
+	/*margin-left: 370px;*/
+	/*padding-left: 25px;
+	padding-right: 25px;
+}
+
+#weather_circle {
+	left: 1000px;
+	z-index: -2;
+	/*margin-left: 170px;*/
+}
+
+/*#degree_circle_sunny {
+	left: 420px;
+	z-index: -1;
+	/*margin-left: 135px;*/
+	/*padding-left: 25px;
+	padding-right: 25px;	
+}
+
+#weather_circle_sunny {
+	left: 470px;
+	z-index: -2;*/
+	/*margin-left: 130px;*/
+/*}*/
+/*/
+/********/
+
+
+#sun1 {
+	margin-bottom: 10%;
+}
+
+#rainy1 {
+	margin-bottom: 10%;
+}
+
+.outerClouds {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 18%;
+	margin-top: 5%;
+}
+
+.sideCloud1{
+	margin-left: 10%;
+	width: 40%;
+}
+
+.sideCloud2 {
+	width: 40%;
+	margin-right: 15%;
+	margin-left: 10%;
+}
+
+#rev {
+	margin-bottom: 8%;
+	margin-top: 8%;
+}
+
+.reviews {
+	margin-left: 11%;
+	align-content: center;
+	display: inline-flex;
+	width: 80%;
+	margin-bottom: 2%;
+}
+
+.innerReviews {
+	width: 50%;
+	margin:2%;
+}
+
+.beforeFooter {
+	background-image: url("images/downloadbg.png");
+	display: inline-flex;
+	height: 500px;
+	width: 100%;
+}
+
+.BeforeFooter1 {
+	margin-top: 8%;
+	margin-left: 20%;
+	margin-right: 10%;
+	color: white;
+	font-size: 120%;
+	font: bold;
+}
+
+.BeforeFooter2 {
+	margin-top: 6.5%;
+}
+
+.footer {
+	background-color: black;
+	height: 200px;
+	width:100%;
+}
+
+
+/* div{
+	border:1px solid red;
+}
+*/
+
+.footerPara{
+}
+.footer-logo {
+	margin-top: 2%;
+	margin-left: 10%;
+	display:inline-block;
+	width:10%;
+}
+
+.footerLinks {
+	display:inline-block;
+	margin-top: 2%;
+	margin-left:18%;
+	width:30%;
+}
+
+#para {
+	margin-top: 2%;
+	text-align: center;
+}
+
