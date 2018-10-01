@@ -1,0 +1,68 @@
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+}
+
+#container {
+	width: 160px;
+	height: 160px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.square {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	animation: pulse 2s infinite;
+}
+
+#yellow_square {
+	background-color: #F6C13F;
+	animation-delay: 0s;
+}
+
+#blue_square {
+	background-color: #418FFD;
+	animation-delay: -0.5s;
+}
+
+#purple_square {
+	background-color: #6F4CE4;
+	animation-delay: -1s;
+}
+
+#red_square {
+	background-color: #F65260;
+	animation-delay: -1.5s;
+}
+
+div {
+    border: 2px solid red;
+}
+
+@keyframes pulse {
+	0%   {
+		left: 0px; top: 0px;
+	}
+	25%  {
+		left: 0px; top: 80px;
+	}
+	50%  {
+		left: 80px; top: 80px;
+	}
+	75%  {
+		left: 80px; top: 0px;
+	}
+	100% {
+		left: 0px; top: 0px;
+	}
+}
